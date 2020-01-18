@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "unsplashApp",
+    "slug": "unsplashApp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rn-icon.png",
+    "splash": {
+      "image": "./assets/rn-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#242832"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dsrtf0x.unsplashAPI",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.dsrtf0x.unsplashAPI",
+      "versionCode": 1,
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "description": ""
+  }
+}

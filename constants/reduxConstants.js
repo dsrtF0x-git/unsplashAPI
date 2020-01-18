@@ -1,0 +1,3 @@
+export const LOAD_INITIAL_LIST = 'LOAD_INITIAL_LIST';
+export const LOAD_MORE_PHOTOS = 'LOAD_MORE_PHOTOS';
+export const PHOTOS_PER_LOAD = 6;
